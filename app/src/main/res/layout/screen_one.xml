@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black"
+    tools:context="photomax.com.application.MainActivity">
+
+
+
+    <android.support.v7.widget.AppCompatImageView
+        android:layout_width="60dp"
+        android:id="@+id/image_logo"
+        android:src="@drawable/logo"
+        android:layout_centerHorizontal="true"
+        android:layout_height="60dp" />
+
+    <android.support.v7.widget.AppCompatImageView
+        android:layout_width="wrap_content"
+        android:id="@+id/image_on"
+        android:src="@drawable/assets_01"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_alignParentLeft="true"
+        android:layout_height="wrap_content" />
+
+    <android.support.v7.widget.AppCompatImageView
+        android:layout_width="wrap_content"
+        android:id="@+id/image_settings"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="16dp"
+        android:src="@drawable/assets_02"
+        android:layout_marginTop="16dp"
+        android:layout_height="wrap_content" />
+
+    <android.support.v7.widget.AppCompatImageView
+        android:layout_width="80dp"
+        android:id="@+id/image_play"
+        android:src="@drawable/assets_07"
+        android:layout_centerInParent="true"
+        android:background="#DD302B"
+        android:layout_centerHorizontal="true"
+        android:layout_height="80dp" />
+
+
+    <android.support.v7.widget.AppCompatImageView
+        android:layout_width="80dp"
+        android:id="@+id/image_stop"
+        android:layout_above="@+id/image_play"
+        android:src="@drawable/assets_08"
+        android:layout_marginBottom="16dp"
+        android:background="#AB302C"
+        android:layout_centerInParent="true"
+        android:layout_centerHorizontal="true"
+        android:layout_height="80dp" />
+
+    <android.support.v7.widget.AppCompatImageView
+        android:layout_width="80dp"
+        android:id="@+id/image_pause"
+        android:background="#AB302C"
+        android:layout_below="@+id/image_play"
+        android:src="@drawable/assets_09"
+        android:layout_marginTop="16dp"
+        android:layout_centerInParent="true"
+        android:layout_centerHorizontal="true"
+        android:layout_height="80dp" />
+
+    <android.support.v7.widget.AppCompatImageView
+        android:layout_width="80dp"
+        android:id="@+id/image_backward"
+        android:layout_alignParentLeft="true"
+        android:src="@drawable/assets_05"
+        android:layout_marginLeft="16dp"
+        android:background="#AB302C"
+        android:layout_centerInParent="true"
+        android:layout_centerHorizontal="true"
+        android:layout_height="80dp" />
+
+    <android.support.v7.widget.AppCompatImageView
+        android:layout_width="80dp"
+        android:id="@+id/image_forward"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/assets_06"
+        android:layout_marginRight="16dp"
+        android:background="#AB302C"
+        android:layout_centerInParent="true"
+        android:layout_centerHorizontal="true"
+        android:layout_height="80dp" />
+
+    <android.support.v7.widget.AppCompatImageView
+        android:layout_width="wrap_content"
+        android:id="@+id/image_plus"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="16dp"
+        android:layout_marginBottom="16dp"
+        android:src="@drawable/assets_04"
+        android:layout_height="wrap_content" />
+
+    <android.support.v7.widget.AppCompatImageView
+        android:layout_width="wrap_content"
+        android:id="@+id/image_minus"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="16dp"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/assets_03"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>

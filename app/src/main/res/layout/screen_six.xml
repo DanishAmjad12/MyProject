@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@android:color/black"
+    android:layout_height="match_parent">
+
+    <android.support.v7.widget.AppCompatImageView
+        android:layout_width="match_parent"
+        android:src="@drawable/logo"
+        android:id="@+id/image_logo"
+        android:layout_alignParentTop="true"
+        android:layout_height="200dp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:background="@android:color/white"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="32dp"
+        android:id="@+id/edit_name"
+        android:hint="Name"
+        android:maxLines="1"
+        android:gravity="center"
+        android:singleLine="true"
+        android:layout_marginRight="32dp"
+        android:layout_height="50dp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:background="@android:color/white"
+        android:maxLines="1"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="32dp"
+        android:id="@+id/edit_email"
+        android:gravity="center"
+        android:layout_marginTop="16dp"
+        android:layout_below="@+id/edit_name"
+        android:hint="Username/Email"
+        android:singleLine="true"
+        android:layout_marginRight="32dp"
+        android:layout_height="50dp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:background="@android:color/white"
+        android:layout_centerInParent="true"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="16dp"
+        android:layout_below="@+id/edit_email"
+        android:id="@+id/edit_password"
+        android:inputType="textPassword"
+        android:hint="Password"
+        android:layout_marginRight="32dp"
+        android:layout_height="50dp" />
+
+    <Button
+        android:layout_width="120dp"
+        android:layout_below="@+id/edit_password"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:background="#B11F25"
+        android:text="Sign Up"
+        android:textColor="@android:color/white"
+        android:layout_height="40dp" />
+
+</RelativeLayout>
